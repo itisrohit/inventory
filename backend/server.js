@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: 'https://inventory-cyan-iota.vercel.app/',
+    origin: 'https://inventory-cyan-iota.vercel.app',
     credentials: true
 }));
 app.use(express.json());
