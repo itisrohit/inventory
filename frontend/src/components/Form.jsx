@@ -11,7 +11,7 @@ const Form = () => {
       const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-          const res = await axios.post('http://localhost:8080/create', 
+          const res = await axios.post('https://inventory-kanc.onrender.com/create', 
             formData,
             { withCredentials: true }
           )

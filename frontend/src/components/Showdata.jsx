@@ -7,7 +7,7 @@ const Showdata = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:8080/");
+        const res = await axios.get("https://inventory-kanc.onrender.com/");
         setData(res.data.data); 
       } catch (error) {
         console.error("Error fetching data:", error);
